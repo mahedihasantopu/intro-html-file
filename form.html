@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha House</title>
+    <link rel="stylesheet" href="style/solidar.css">
+    <style>
+        label{
+            display: block;
+            margin-top: 30px;
+            font-size: 30px;
+        }
+        input{
+            font-size: 30px;
+        }
+        .reset{
+            margin-top: 10px;
+            font-size: larger;
+        }
+        button{
+            display: inline;
+        }
+        #form{
+            background-color: antiquewhite;
+            /* background-image:url("taskin.jpg.jpg");
+         height: 100%; */
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 style="background-color: chocolate; box-shadow: .75px .75px 15px rgb(0, 0, 0); text-align: center;">Please Fill up the Form</h1>
+        <section id="form" >
+           <form action="">
+            <label for="">Your Name:
+                <input type="text" placeholder="Your Name">
+            </label>
+            <label for="">Your Email:
+                <input type="email" name="" id="email" placeholder="Your Email">
+            </label>
+            <fieldset>
+                <legend>Picup one Pitha</legend>
+                 <label for="">
+                    <input type="radio" name="pitha" id="Chitoy">Chitoy
+                 </label>
+                 <label for=""><input type="radio" name="pitha" id="vapa"> Vapa</label>
+                <label for="
+                ">
+            <input type="radio" name="pitha" id="">Puri</label>
+            </fieldset>
+            <fieldset>
+                <legend>Select more vorta</legend>
+                <label for="">
+                    <input type="checkbox" name="" id=""> shukti
+                </label>
+                <label for="">
+                    <input type="checkbox" name="" id="shorisa">Shorisa
+                </label>
+                <label for="">
+                    <input type="checkbox" name="" id="">Alu vorta
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Special Instractions</legend>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+                
+            </fieldset>
+            <button style="margin-top: 20px; background-color: rgb(240, 35, 35); border: red;font-size: 20px; color: bisque; border-radius: 2px; padding: 5px; margin-right: 10px;" type="reset">Reset</button>
+
+                <button style="background-color: green; border: green; font-size: 20px; color: aliceblue; border-radius: 2px; padding: 5px;" type="submit">Submit</button>
+            
+           </form>
+        </section>
+    </main>
+</body>
+</html>

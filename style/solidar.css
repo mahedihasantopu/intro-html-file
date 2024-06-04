@@ -1,0 +1,107 @@
+nav > ul > li {
+    display: inline;
+    font-size: 40px;
+    margin-right: 40px;
+
+    
+}
+nav ul li:hover{
+    background-color: rgb(255, 95, 20);
+}
+ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif black ;
+    text-shadow: .75px .75px 15px rgb(129, 9, 228);
+
+}
+.footer{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.picture{
+    height: 200px;
+    width: 300px;
+    
+}
+figure{
+    display: inline;
+    /* position: absolute; */
+    /* position: absolute; */
+}
+
+/* flag section  */
+/* .greenbox{
+    height: 500px;
+    width: 800px;
+    position: relative;
+    background-color: green;
+    margin-top: 30px;
+    margin: auto;
+    
+}
+.redbox{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    background-color: red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: auto;
+
+} */
+
+.green{
+    height: 500px;
+    width:800px ;
+    background-color: green;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    box-shadow: .75cm .75cm 1cm;
+
+}
+.red{
+    width: 250px;
+    height: 250px;
+    background: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+.text{
+    font-size: 40px;
+    text-align: center;
+    font-family: arial black;
+    text-shadow: 2px 5px 15px black;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+
+/* .green {
+    height: 500px;
+    width: 800px;
+    position: relative;
+    background-color: green;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    background-color: red;
+    top: 50%; /* Adjust this according to your positioning needs */
+    /* left: 50%; /* Adjust this according to your positioning needs */
+    /* transform: translate(-50%, -50%); */
+/* } */ 

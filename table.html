@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tag</title>
+    <link rel="stylesheet" href="style/solidar.css">
+    <style>
+        table{
+            border-collapse: collapse;
+            
+        }
+        td ,th{
+            border: 2px solid black;
+            padding: 5px 10px;
+            font-size: 30px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                    </ul></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1> HTMLTable Tag:
+
+        </h1>
+        <table>
+            <caption>Employer Salary Details</caption>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Full Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                   <td> Bill Gats</td>
+                   <td>Founder Microsoft</td>
+                   <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Stevs Jobs</td>
+                   <td>Founder Apple</td>
+                   <td>$1100</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Larry Page</td>
+                    <td>Founder Google</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                <td>4</td>
+                <td>Mark Zuckarberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+                </tr>
+        
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total employer = 4</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>
